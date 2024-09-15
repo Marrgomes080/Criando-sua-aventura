@@ -1,0 +1,33 @@
+body {
+    background-color: #3d2319;
+    color: white;
+    font-family: "Cinzel", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+button {
+    background-color: #6e4730;
+    color: white;
+    font-family: "Cinzel", serif;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+    max-width: 80%;
+}

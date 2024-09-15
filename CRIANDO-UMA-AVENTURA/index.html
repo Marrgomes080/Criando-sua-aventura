@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
+    <title>Em busca da cidade perdida</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="A aventura começa">
+            <p>Você é um(a) jovem pirata em ascensão nos mares do Caribe. Sua reputação de ousadia e inteligência precede você, mas a cobiça por ouro e glória ainda queima em seu coração. Após saquear um galeão espanhol, você encontra um mapa antigo que supostamente leva ao tesouro perdido do lendário Capitão Barba Negra.
+               Mas o mapa contém uma maldição: a cada escolha que você fizer, uma vida estará em jogo - a sua, de seus tripulantes ou de inocentes. O que você faz?</p>
+            <button class="btn-proximo" data-proximo="1">Seguir o mapa imediatamente, ignorando os rumores de maldição. Afinal, fortuna sorri para os audaciosos!</button>
+            <button class="btn-proximo" data-proximo="2">Buscar mais informações sobre a maldição, consultando um velho místico em uma ilha próxima. O conhecimento é poder, mas o tempo é precioso.</button>
+        </div>
+
+        <div class="passo" id="passo-1">
+            <img src="img/cenario-passo1.png" alt="tempestade violenta atinge o navio.">
+            <p>Você decide que as lendas são apenas histórias contadas por velhos supersticiosos. Com o mapa em mãos e o vento a favor, você e sua tripulação partem rumo ao desconhecido. Os primeiros dias de navegação são tranquilos, e a moral da tripulação está elevado pela promessa de riquezas inimagináveis.
+               No entanto, na terceira noite, uma densa neblina cobre o mar. Estranhos ruídos ecoam pelas águas e, de repente, uma tempestade violenta atinge o navio. As ondas parecem ganhar vida, e um raio parte o mastro principal.</p>
+            <button class="btn-proximo" data-proximo="3">Tentar navegar pelas águas traiçoeiras, confiando nas suas habilidades</button>
+            <button class="btn-proximo" data-proximo="4">Ordenar à tripulação que abandone o navio e se dirija aos botes salva-vidas.</button>
+        </div>
+
+        <div class="passo" id="passo-2">
+            <img src="img/cenario-passo2.png" alt="A maldição do mapa é real.">
+           <p>Você decide não arriscar a vida da sua tripulação sem antes entender o que está em jogo. O velho místico vive numa pequena ilha, conhecida apenas pelos mais velhos navegadores do Caribe. Ao chegar lá, você é recebido por uma visão estranha: o homem parece esperar por você, como se soubesse que você viria.
+              Ele o leva para dentro de sua cabana escura e acende uma vela. Suas palavras são cheias de mistério:
+              "A maldição do mapa é real, jovem. Barba Negra guardou seu tesouro com mais do que apenas ferro e pólvora. Para encontrar o ouro, você deve perder algo mais precioso que ouro... a sua própria humanidade."</p>
+           <button class="btn-proximo" data-proximo="5">Ignorar o aviso e continuar com o plano de seguir o mapa.</button>
+           <button class="btn-proximo" data-proximo="6">Pedir ao místico uma maneira de quebrar a maldição antes de partir em busca do tesouro.</button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <img src="img/cenario-passo3.png" alt="A tempestade o trouxe até aqui por um motivo.">
+            <p>A tempestade implacável açoitava o navio. Você, agarrado ao leme, lutava contra as ondas colossais. Uma onda monstruosa, arrebentou a embarcação contra as rochas. Você acordou em uma praia, salvo por um pedaço do mastro. Um caminho de pedras levava a uma colina onde um velho de barba branca o aguardava. “A tempestade o trouxe até aqui por um motivo”, disse ele com um sorriso enigmático. “O destino o aguarda.”</p>
+            <button class="btn-proximo" data-proximo="6">Consultar o velho místico. "O tempo é um luxo que a perda me ensinou a não ter, mas cada segundo que me resta será dedicado a honrar o que se foi."</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4.png" alt="Águas desconhecidas, capitão… mas a bússola ainda funciona. Podemos tentar voltar para casa.">
+            <p>A tripulação olha para você em choque, mas rapidamente entende a gravidade da situação. Todos entram nos botes e começam a remar para longe do navio enquanto a tempestade o destrói completamente. A tempestade cessa tão rápido quanto começou, deixando um silêncio quase ensurdecedor. O sol surge entre as nuvens, revelando apenas destroços espalhados pelo mar calmo e um horizonte infinito. Um misto de desespero e esperança toma conta dos homens. Estão vivos, mas perdidos. O navegador, com a voz embargada, quebra o silêncio: “Águas desconhecidas, capitão… mas a bússola ainda funciona. Podemos tentar voltar para casa.”</p>
+            <button class="btn-proximo" data-proximo="17">Fim</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <img src="" alt="">
+            <p>Sem dar ouvidos às advertências, você decide seguir o mapa, determinado a alcançar o tesouro de Barba Negra. Os rumores de maldição parecem histórias para assustar crianças, e o ouro que o mapa promete é tentador demais para ser ignorado.
+               Conforme os dias passam, estranhos eventos começam a ocorrer no navio. Tripulantes sofrem de pesadelos perturbadores, alguns ouvem vozes à noite, e até a comida começa a apodrecer mais rápido que o normal. No entanto, você mantém o curso, acreditando que tudo isso são apenas coincidências ou o efeito da paranoia.
+               Finalmente, você chega à ilha onde o tesouro está enterrado. As águas ao redor são tranquilas, mas o ar parece carregado com uma tensão invisível. A tripulação está nervosa, mas você os comanda com firmeza: o tesouro de Barba Negra está próximo, e nada pode impedir sua descoberta.</p>
+            <button class="btn-proximo" data-proximo="7">Descer à ilha e procurar o tesouro imediatamente, liderando a busca pessoalmente.</button>
+            <button class="btn-proximo" data-proximo="8">Ordenar que parte da tripulação desça primeiro.</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <img src="img/cenario-passo6.png" alt="grande sacrifício.">
+            <p>O velho místico o observa atentamente, então diz em tom sombrio:
+                "Existe uma maneira de quebrar a maldição, mas isso exigirá um grande sacrifício. Não de vidas, mas de algo igualmente valioso. Para se livrar dessa maldição, você precisará renunciar a algo que tem grande importância para você. O tesouro só será seu se abrir mão daquilo que mais preza."
+                Você fica em silêncio, ponderando o que ele poderia querer dizer com "grande sacrifício". O tesouro de Barba Negra está tão perto, mas a maldição exige um preço. Não será de sangue, mas de algo mais profundo.</p>
+            <button class="btn-proximo" data-proximo="9">Sacrificar sua liberdade e se comprometer a nunca mais navegar pelos mares após encontrar o tesouro.</button>
+            <button class="btn-proximo" data-proximo="10">Renunciar ao tesouro para salvar sua tripulação e a si mesmo da maldição, abandonando a jornada.</button>
+            <button class="btn-proximo" data-proximo="11">Aceitar uma forma de sacrifício pessoal: abrir mão de algo que faz de você quem é, como sua memória ou sua identidade.</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <img src="img/cenario-passo7.png" alt="No fundo da caverna.">
+            <p>Você decide liderar a expedição, tomando o mapa nas mãos e guiando seus homens pela densa floresta da ilha. Depois de horas de exploração, vocês finalmente encontram uma caverna escondida por uma cascata. A entrada da caverna está adornada com ossos antigos, sinais de que a lenda sobre a maldição pode ser verdadeira.
+               Sem hesitar, você avança, determinado a enfrentar qualquer obstáculo para alcançar o tesouro. No fundo da caverna, há um grande baú de ferro, exatamente como o mapa descrevia. Seus olhos brilham com a expectativa, e sua tripulação aguarda ansiosamente.</p>
+            <button class="btn-proximo" data-proximo="12">Abrir o baú sem hesitar, desafiando a maldição</button>
+            <button class="btn-proximo" data-proximo="13">Esperar e examinar o baú com mais cuidado, temendo que a maldição esteja à espreita.</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <img src="img/cenario-passo8.png" alt="sombras que surgiram da terra">
+            <p>Você decide ficar no navio, ordenando que alguns homens desçam primeiro para explorar a ilha. Eles seguem suas ordens, mas você percebe que algo está errado quando ouve gritos vindos da floresta. Horas se passam, e apenas um dos seus homens retorna, coberto de sangue e em estado de choque. Ele fala de sombras que surgiram da terra e arrastaram os outros. Diante dessa situação, você tem uma escolha a fazer:</p>
+            <button class="btn-proximo" data-proximo="12">Descer à ilha com o restante da tripulação para descobrir o que aconteceu e tentar recuperar o tesouro.</button>
+            <button class="btn-proximo" data-proximo="14">Abandonar a ilha, reconhecendo que a maldição é real e sua tripulação está em perigo.</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <img src="img/cenario-passo9.png" alt="sua liberdade de navegar pelos mares.">
+            <p>O místico sorri ao perceber sua decisão. Ele se aproxima de você e coloca uma mão em seu ombro, sussurrando:
+                "Os mares sempre foram sua vida, mas agora será a última vez que os verá como capitão. O tesouro será seu, mas em troca, nunca mais poderá comandar um navio ou sentir o vento da liberdade nas velas."
+                Você volta ao navio com a consciência pesada. Enquanto navega em direção à ilha do tesouro, o peso da sua escolha começa a recair sobre você. Cada onda que bate no casco do navio parece um adeus ao que você sempre conheceu e amou.
+                Finalmente, você encontra o tesouro de Barba Negra. A tripulação exulta ao ver as riquezas diante de si, mas você, em silêncio, sabe que este é o fim de sua vida como pirata. A maldição está quebrada, mas sua alma está presa a um novo destino: longe dos mares que tanto amava.</p>
+            <button class="btn-proximo" data-proximo="17">Fim: O tesouro é seu, mas você deve viver o resto da sua vida longe daquilo que mais valorizava...sua liberdade de navegar pelos mares.</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <img src="img/cenario-passo10.png" alt="O tesouro permanece perdido">
+            <p>O místico ouve sua decisão e assente com aprovação. "A sabedoria vem daqueles que entendem que algumas riquezas não são feitas de ouro. Você não terá o tesouro, mas sairá desta jornada com sua vida e a de sua tripulação intactas."
+               Voltando ao navio, você comunica à tripulação que a busca pelo tesouro de Barba Negra acaba ali. Embora alguns fiquem desapontados, a maioria entende a gravidade do perigo. Vocês deixam a ilha para trás, livres da maldição, mas com um sentimento de que algo foi perdido, mesmo que tenham preservado suas vidas.
+               Conforme o navio volta aos mares abertos, você sente um alívio. As sombras da maldição se dissipam e, com isso, você sabe que tomou a decisão certa. O tesouro poderia ter trazido riquezas, mas ao custo da alma e da sanidade de todos a bordo.</p>
+            <button class="btn-proximo" data-proximo="16">Fim: O tesouro permanece perdido, mas você salvou sua tripulação e a si mesmo da maldição. A aventura termina sem ouro, mas com a segurança de todos preservada.</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo11.png" alt="O tesouro é seu, mas sua memória e identidade se foram.">
+            <p>O místico o observa com um olhar grave e diz:
+               "Para quebrar a maldição, você deve renunciar a algo muito mais profundo: sua própria identidade. O tesouro será seu, mas você perderá as memórias que o definem como capitão/capitã. Você ainda viverá, mas será uma sombra do que foi antes."
+               Essa escolha é difícil de aceitar, mas você decide que a promessa de riquezas vale o risco. Conforme você avança em direção ao tesouro, sente suas lembranças começarem a se esvair...a primeira vez que navegou, os momentos de vitória em combate, até os nomes dos membros mais antigos da sua tripulação. Tudo começa a desaparecer.
+               Chegando à caverna do tesouro, você abre o baú e vê as riquezas. Mas, ao tocá-las, percebe que não se lembra mais por que as desejava tanto. As moedas e joias são frias em suas mãos, e sua mente parece um vazio. A tripulação comemora, mas você se sente perdido.</p>
+            <button class="btn-proximo" data-proximo="15">Fim: O tesouro é seu, mas sua memória e identidade se foram. Você ganhou riquezas, mas perdeu a si mesmo no processo.</button>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <img src="img/cenario-passo12.png" alt="maldição o prende.">
+            <p>Decidido a acabar com a jornada, você força a abertura do baú. A ferrugem range enquanto você levanta a pesada tampa, revelando o brilho dourado do ouro, joias e artefatos antigos que fazem sua respiração parar por um momento.
+               Mas no instante em que toca a primeira moeda de ouro, algo sombrio acontece. O tesouro começa a brilhar intensamente, e uma risada sinistra ecoa pela caverna. O chão treme, e sombras começam a se erguer das paredes. Um frio mortal percorre o local, e você percebe que cometeu um erro fatal. 
+               Uma força invisível o impede de pegar o ouro. A maldição é ativada, e uma voz ecoa:
+               "O ouro não pertence aos vivos. Você encontrou o tesouro, mas nunca poderá possuí-lo."
+               As sombras engolem sua tripulação uma a uma. Sua mente luta para processar o que está acontecendo, mas é tarde demais. O baú se fecha sozinho com um estrondo ensurdecedor. O tesouro está diante de você, mas é inatingível...uma lembrança amarga de que você desafiou a maldição sem respeitar seus avisos.</p>
+            <button class="btn-proximo" data-proximo="15">Fim: Você encontrou o tesouro, mas a maldição o prende, e nenhum ouro jamais será seu.</button>
+        </div>
+
+        <div class="passo" id="passo-13">
+            <img src="img/cenario-passo13.png" alt="maldição garantiu que ele nunca seria seu.">
+            <p>Diante do baú, algo em seu instinto o alerta de que abrir o tesouro pode ter consequências terríveis. Você examina a caverna mais de perto e percebe inscrições antigas nas paredes, detalhando os horrores que caíram sobre aqueles que tentaram reivindicar o tesouro sem antes quebrar a maldição.
+               Enquanto você pondera o próximo passo, a terra começa a tremer, e sombras surgem das profundezas da caverna. Você percebe que, mesmo com a cautela, a maldição foi ativada simplesmente por entrar no local.
+               Sem tempo para reagir, você tenta escapar, mas a saída da caverna se fecha, selando você e sua tripulação dentro. O tesouro permanece à vista, mas impossível de alcançar. Você entende que o místico estava certo...a maldição precisava ser quebrada, e agora o destino de sua tripulação está selado.</p>
+            <button class="btn-proximo" data-proximo="15">Fim: Você teve a chance de ouro nas mãos, mas a maldição garantiu que ele nunca seria seu.</button>
+        </div>
+        <div class="passo" id="passo-14">
+            <img src="img/cenario-passo10.png" alt="">
+            <p>Diante do relato aterrorizante do tripulante que retornou, você sente o peso da responsabilidade sobre sua tripulação. O tesouro de Barba Negra não vale o risco de perder mais vidas. Com o coração pesado, você ordena a retirada imediata da ilha.
+               Enquanto o navio se afasta da costa, a neblina que envolvia a ilha começa a se dissipar, revelando suas sombras sinistras, como se a própria terra estivesse viva, observando sua partida. Seus homens, embora desapontados por deixarem o tesouro para trás, se sentem aliviados por escapar da maldição.</p>
+            <button class="btn-proximo" data-proximo="17">Fim: Você escolheu a segurança da sua tripulação em vez do ouro amaldiçoado. O tesouro permanece na ilha, intocado, mas sua tripulação está salva.</button>
+        </div>
+        <div class="passo" id="passo-15">
+            <img src="img/cenario-passo15.png" alt="Game over.">
+            <p>Obrigado por jogar</p>
+            <button class="btn-proximo" data-proximo="0">Deseja retomar a aventura?</button>
+        </div>
+        <div class="passo" id="passo-16">
+            <img src="img/cenario-passo16.png" alt="You win.">
+            <p>Obrigado por jogar</p>
+            <button class="btn-proximo" data-proximo="0">Deseja retomar a aventura?</button>
+        </div>
+        <div class="passo" id="passo-17">
+            <img src="img/cenario-passo17.png" alt="The end?.">
+            <p>Obrigado por jogar</p>
+            <button class="btn-proximo" data-proximo="0">Deseja retomar a aventura?</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
